@@ -1,0 +1,34 @@
+{
+  "name": "vidly-backend",
+  "version": "1.0.0",
+  "description": "Vidly Backend with Node.js and Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --runInBand --detectOpenHandles"
+  },
+  "author": "Silviu",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.7",
+    "debug": "^4.3.3",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^5.0.2",
+    "joi": "^17.6.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.3",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "winston": "^3.6.0",
+    "winston-mongodb": "^5.0.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}

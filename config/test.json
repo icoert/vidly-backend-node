@@ -1,0 +1,5 @@
+{
+    "name": "Vidly Backend - Test",
+    "db_url": "mongodb://localhost/vidly_test",
+    "jwtPrivateKey": "1234"
+}
