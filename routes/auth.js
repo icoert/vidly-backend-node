@@ -1,12 +1,10 @@
 const Joi = require('Joi');
 const express = require('express');
-const mongoose = require('mongoose');
 const router = express.Router();
 const { User } = require('../models/user');
-const _ = require('lodash');
 const bcrypt = require('bcrypt');
 
-router.post('/', async (req, res) => {
+router.post('/', async (req, res) => {    
     const { error } = validate(req.body);
     if(error) return res.status(400).send(error.message);
 
